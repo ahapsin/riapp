@@ -12,6 +12,7 @@ import {
   Input,
   NativeSelect,
   Stack,
+  Text,
 } from "@chakra-ui/react";
 
 import { PasswordInput } from "@/components/ui/password-input";
@@ -22,9 +23,11 @@ const Signin = () => {
       <Card.Root
         width="100%"
         lg={{ width: "25%" }}
-        sm={{ border: 0 }}
         margin="auto"
       >
+        <Card.Header padding={2} bg="gray.50">
+            <Text fontWeight="bold">TEST AJA</Text>
+        </Card.Header>
         <Card.Body>
           <Flex gap={2}>
             <Avatar.Root size="lg" shape="rounded">
